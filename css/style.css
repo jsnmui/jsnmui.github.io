@@ -1,0 +1,99 @@
+        body {
+			  background-color: #F0F8FF;
+    	      font-family: Helvetica, sans-serif;        
+              font-size: 16px;
+              color: darkslateblue;
+           
+              margin: 5px;
+              padding: 5px;
+        }
+
+        h3 {
+ 			font-weight: 900;
+  		}
+
+  		p {
+  			font-family:  Arial;
+  			
+  		}
+  	  
+        #me {
+           width: 150px;
+           height:150px;
+  	    }
+        form{
+            padding: 15px;
+            background-color: orange;
+            font-style: italic;
+            border-style: solid;
+            font-weight: 1000px;
+        }
+        input[type=button]{
+            color: black;
+            font-style: italic;
+            background-color: yellow; 
+            padding: 5px;           
+
+        }
+
+        input[type=button]:hover{
+            boder: solid;
+            background-color: rgb(0, 230, 0); 
+                      
+
+        }
+        .video-container{
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+         
+        }
+
+        .video-container div {
+          
+          padding-right: 50px;
+          text-align: center;
+     
+        }
+
+     
+
+        .gif-container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .gif-container img{
+           width: 150px;
+           height:150px;
+           padding-right:10px;
+        }
+
+
+        div.relative {
+            position: relative;
+            left: 30px;
+     
+        }
+
+        div.fixed {
+              position: fixed;
+        }
+
+        .inl {
+            display: inline;
+            
+        }
+
+        .inline-block-element {
+        
+             display: inline-block;
+             width: 100px;
+             height: 30px;
+
+        }
+
+        #pizza {
+            font: 14px Arial;
+        }
+
