@@ -82,6 +82,8 @@
 
         .inl {
             display: inline;
+            width: 100px;
+            height: 160px;
             
         }
 
@@ -93,7 +95,17 @@
 
         }
 
-        #pizza {
+        #change {
             font: 14px Arial;
+        }
+
+        .row {
+          display: flex;
+          
+        }
+
+        .column {
+          
+          padding: 15px;
         }
 
