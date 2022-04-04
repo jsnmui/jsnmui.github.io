@@ -99,15 +99,7 @@
             font: 14px Arial;
         }
 
-        .row {
-          display: flex;
-          
-        }
-
-        .column {
-          
-          padding: 15px;
-        }
+        
 
         h2 {
          color: darkblue;
@@ -131,4 +123,15 @@
         table {
           
           border-collapse: collapse;
+        }
+
+
+        .center {
+          margin-left: auto; 
+          margin-right: auto;
+        }
+
+
+        #colors{
+            text-align: center;
         }
