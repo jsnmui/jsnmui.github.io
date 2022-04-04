@@ -7,15 +7,24 @@
 </nav>
 </div>
 
-
 <head>
   <title>Videos and Stuff</title>
   <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <script type="text/javascript">
+        function hide() {
+          document.getElementById("form1").style.display="none";
+        }
+
+        function show() {
+          document.getElementById("form1").style.display="block";
+        }
+  </script>   
+        
 </head>
 
-<h1>Some Helpful Videos</h1>
+<h2>Some Helpful Videos</h2>
 <p>Here are some useful videos that I found on <img class="inline-block-element"  id="youtube" src="https://i.ibb.co/60Ykf78/oie-WPr-RXZGx-TJPN.png"></p>
-<h2>Tutorials</h2>
+
   <div class="video-container">
     <div>
        <h3> What is CSS? </h3>
@@ -146,7 +155,10 @@
 
 <div>
   <p>If you have any questions or suggestions, you can complete the form below.</p>
-  <form >
+   <button onclick="hide()">Hide</button>
+   <button onclick="show()">Show</button>
+  
+  <form id="form1">
          First name: <br>
          <input type = "text" name = "first_name" />
          <br>
@@ -165,6 +177,6 @@
          </textarea><br>
          <input type = "button" name = "submit" value = "submit" />
   </form>
-
+  
 </div>
 </html>

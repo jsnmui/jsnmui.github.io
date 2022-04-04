@@ -37,7 +37,7 @@
         }
 
         input[type=button]:hover{
-            boder: solid;
+            border: solid;
             background-color: rgb(0, 230, 0); 
                       
 
@@ -109,3 +109,16 @@
           padding: 15px;
         }
 
+        h2 {
+         color: darkblue;
+        }
+
+        h3 {
+         color: blue;
+        }
+
+
+        .food:hover{
+            font-size: 20px;
+            color: red;
+        }
