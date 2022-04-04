@@ -135,3 +135,7 @@
         #colors{
             text-align: center;
         }
+
+        #table1 tr:hover {
+            background-color: #ddd;
+        }
