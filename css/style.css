@@ -139,3 +139,27 @@
         #table1 tr:hover {
             background-color: #ddd;
         }
+
+        #welcome {
+            text-transform: uppercase;
+            color:orangered;
+            font-weight: bold }
+        }
+
+
+       nav {
+        display: flex;
+        flex-wrap: nowrap;
+      }
+      nav a {
+        text-decoration: none;
+        text-align: center;
+        background-color: rgb(189, 185, 185);
+        color: #464141;
+        margin: 0px;
+        font-family: sans-serif;
+      }
+      nav a:hover {
+        background-color: #777777;
+        color: #ffffff;
+      }
